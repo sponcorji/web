@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+    background-color: rgb(10, 201, 249);
+
+}
+
+
+h1{
+    color: rgba(131, 10, 196, 0.808);
+}
+button{
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+button:hover{
+    background: rgba(255, 255, 255, 0.618);
+}
+
+div{
+    cursor: pointer;
+  display: inline-block;
+
+}
+
