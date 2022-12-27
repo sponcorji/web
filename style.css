@@ -1,9 +1,19 @@
 *{
-    text-align: center;
+    /* text-align: center; */
     background-color: rgb(10, 201, 249);
 
 }
 
+#dp{
+    text-align: left;
+    margin-left: 0vw;
+    display: flex;
+    margin-right: 3vw;
+}
+
+/* body{
+    text-align: center;
+} */
 
 h1{
     color: rgba(131, 10, 196, 0.808);
@@ -11,6 +21,7 @@ h1{
 button{
     cursor: pointer;
     border-radius: 10%;
+    margin: 1vw;
 }
 
 button:hover{
@@ -18,8 +29,28 @@ button:hover{
 }
 
 div{
-    cursor: pointer;
+    padding: 3vh;
+    margin: 3vw;
   display: inline-block;
 
 }
 
+
+output{
+    font-size: xx-large;
+}
+
+hr{
+    opacity: 20%;
+}
+
+nav{
+width: 100%;
+    display:inline-flex;
+position:sticky;
+top: 0vh;
+left: 0vw;
+align-items: baseline;
+
+
+}
